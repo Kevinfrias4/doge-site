@@ -7,7 +7,7 @@ const Nav = () => {
         <Navbar>
             <h1>
                 <Link className='li' to='/'>
-                    DOGESITE
+                    DOGSITE
                 </Link>
             </h1>
             <Links>
@@ -20,19 +20,26 @@ const Nav = () => {
 }
 
 const Navbar = styled.div`
+    position: sticky;
+    top: 0;
+    z-index: 10;
     width: 100%;
-    height: 5rem;
+    height: 3rem;
     display: flex;
-    background: #b0d8ad;
+    //background: #add8d2;
+    background: black;
     align-items: center;
     h1 {
-        margin: 10px;
-        letter-spacing: 5px;
+        font-size: 50px;
+        letter-spacing: 7px;
     }
     .li {
-        color: white;
-        margin: 10px;
+        color: #69948e;
+        margin: 20px;
         text-decoration: none;
+        &:hover {
+            color: #39c8eb;
+        }
     }
 `;
 
