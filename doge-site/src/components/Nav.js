@@ -20,7 +20,7 @@ const Nav = () => {
 }
 
 const Navbar = styled.div`
-    position: sticky;
+    //position: sticky;
     top: 0;
     z-index: 10;
     width: 100%;
