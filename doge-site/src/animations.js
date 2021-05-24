@@ -47,7 +47,7 @@ export const lights = {
         }
     },
     hidden: {
-      y: -150,
+        y: -150,
     }
 };
 

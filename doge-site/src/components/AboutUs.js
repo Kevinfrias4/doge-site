@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { motion, useViewportScroll, useTransform, useMotionValue } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
